@@ -1,0 +1,79 @@
+.encabezado {
+  width: 100%;
+  height: 75px;
+  background-color: #38a3a5; /* Azul oscuro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; /* Opcional si quieres que quede fijo arriba */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.encabezado h1 {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #faf9f9;
+}
+
+
+body {  
+      font-family: Arial, sans-serif;
+      background: #f3f4f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 20px;
+      margin: 5px;
+      margin-top: 55px;
+    }
+
+.contenedor {
+      background-color: white; 
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 530px; 
+    margin: 10px; 
+}
+
+p {
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    color: #22577a;
+}
+
+.video {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;     /* Opcional: centra vertical si se le da altura */
+  margin-top: 15px;
+}
+
+.video video {
+  max-width: 100%;  /* Escala responsivamente */
+  height: auto;
+  border-radius: 8px; /* Opcional, solo por estética */
+}
+
+.boton {
+    margin-top: 20px;
+    text-align: center;
+}
+.botton {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #22577a;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 9px;
+  transition: background-color 0.3s; /* Transición suave */
+}
+.botton:hover {
+  background-color: #3b7da8; /* Cambia el color al pasar el mouse */
+}

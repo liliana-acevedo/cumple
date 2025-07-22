@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumple</title>
+     <link rel="stylesheet" href="css/estilos.css"/>
+</head>
+<body style="background-image: url('video/pngtree-happy-birthday-celebration-png-image_8844245.png'); background-size: cover; background-position: center;">
+    <header class="encabezado">
+        <h1>FELIZ CUMPLE DANI</h1>
+    </header>
+
+    <div class="contenedor">
+    <p>¡Felicidades, Guerrero! Aunque no hayas derrotado a ningún villano este año, sobreviviste a la Universidad… lo cual es más difícil que vencer a Cell sin hacer trampa.</p>
+
+    <div class="video">
+    <video id="miVideo" autoplay controls loop>
+  <source src="video/ogEGLCeyKIVn7ptsIQKsIevXSV2cMEAnMCejgr (1).mp4" controls></video>
+  
+</video>
+<script>
+  const video = document.getElementById("miVideo");
+  video.volume = 1.0; // volumen al máximo
+  video.play().catch((error) => {
+    console.log("Autoplay con sonido bloqueado por el navegador:", error);
+  });
+</script>
+    </div>
+    <div class="boton">
+        <a href="cumple3.html" class="botton">Siguiente</a>
+            </div>
+
+    </div>
+
+
+
+    
+</body>
+</html>
